@@ -1,0 +1,8 @@
+@mixin thumbnail ($hover-color) {
+	display: block;
+  	width:90%;
+ 	margin:20px auto;
+ 	&:hover {
+		background-color: $transition1;
+		}
+}
