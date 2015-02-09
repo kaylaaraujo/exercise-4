@@ -5,13 +5,14 @@ body {
 
 h1 {
   color: #009F9F;
+  margin-top: 2.5em;
   text-transform: uppercase;
   text-align: center;
   margin-bottom: 0;
 }
 
 h3 {
-  margin-top: 0;
+  margin-top: 0.5em;
   color: #009F9F;
   text-align: center;
 }
