@@ -16,8 +16,8 @@ $(document).ready(function() {
 
     options.each(function(index) {
       var layer = options.length - index;
-      $(this).css("top", 40 * index + "px");
-      $(this).css("width", 230);
+      $(this).css("top", 50 * index + "px");
+      $(this).css("width", 270);
       $(this).css("margin-left", -115);
     });
   }
@@ -30,7 +30,7 @@ $(document).ready(function() {
       var layer = options.length - index;
       $(this).css("z-index", layer);
       $(this).css("top", 2 * index + "px");
-      $(this).css("width", 230 - 2 * index);
+      $(this).css("width", 270 - 2 * index);
       $(this).css("margin-left", -115 + index);
     });
   }
