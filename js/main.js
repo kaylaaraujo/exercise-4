@@ -18,7 +18,7 @@ $(document).ready(function() {
       var layer = options.length - index;
       $(this).css("top", 50 * index + "px");
       $(this).css("width", 270);
-      $(this).css("margin-left", -115);
+      $(this).css("margin-left", -150);
     });
   }
   function collapse() {
@@ -31,7 +31,7 @@ $(document).ready(function() {
       $(this).css("z-index", layer);
       $(this).css("top", 2 * index + "px");
       $(this).css("width", 270 - 2 * index);
-      $(this).css("margin-left", -115 + index);
+      $(this).css("margin-left", -150 + index);
     });
   }
 
